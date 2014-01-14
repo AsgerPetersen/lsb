@@ -4,10 +4,11 @@ lsb
 Database
 --------
 
+```
 Postering
 ---------
 id          INT PRIMARY KEY AUTOINCREMENT
-kontoid     INT
+kontonummer TEXT
 dato        TEXT
 tekst       TEXT
 beloeb      REAL
@@ -26,5 +27,6 @@ tekst       TEXT
 
 konto
 -----------
-id          INT PRIMARY KEY AUTOINCREMENT
+kontonummer TEXT PRIMARY KEY
 tekst       TEXT
+```
